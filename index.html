@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/mediaqueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,49 +16,42 @@
 </head>
 
 <body>
+   
     <header>
-        <div class="navbar">
-            <div class="navbar__logo"> <a href="/index.html"><img src="/Img/imageonline-co-transparentimage.png"
-                        alt="FerroTool"></a>
-
-                        <label for="menu" class="menu">
-                            <img src="/Img/menu.png" alt="icono menu" class="menu-icon" />
-                          </label>
-                          <input type="checkbox" id="menu-toggle" />
-                          <ul class="navbar-list">
-                            <li>
-            </div>
-            <div class="lista">
-                <div>
-                    <li>
-                        <ul class="lista__items"><a href="#">INICIO</a> </ul>
-                        <ul class="lista__items"><a href="/institucional.html">INSTITUCIONAL</a></ul>
-                        <ul class="lista__items"><a href="/card.html">HERRAMIENTAS </a></ul>
-                        <ul class="lista__items"><a href="/contacto.html">CONTACTO</a></ul>
-                        <ul class="lista__items"><a href="/login.html"><i class="fa-solid fa-user"></i></a></ul>
-                    </li>
-                </div>
-            </div>
-        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="/index.html"><img src="/Img/imageonline-co-transparentimage.png"
+            alt="FerroTool"></a>
+        </a>
+        <ul>
+            <li><a class="active" href="/index.html">Inicio</a></li>
+            <li><a href="/institucional.html">Nosotros</a></li>
+            <li><a href="/card.html">herramientas</a></li>
+            <li><a href="/contacto.html">Contacto</a></li>
+            <li><a href="/login.html"><i class="fa-solid fa-user"></i></a></li>
+        </ul>
     </header>
+<nav></nav>
+
     <section>
+       
+
         <div class="descripcion">
 
-            <div class="titulo">
-                <h2>Herramientas e insumos para sus proyectos</h2>
+        <div class="titulo">
+            <h2>Herramientas e insumos para sus proyectos</h2>
 
-                <p>En FerroTool contamos con una amplio stock y gama de herramientas e insumos que nos permiten afrontar
-                    en tiempo y forma las necesidades de nuestros clientes y acompañarte durante la etapa de gestión del
-                    proyecto.</p>
-            </div>
-
-
-            <div class="boton">
-                <div><a href="/card.html"> Más información</a></div>
-                <!-- <div><a href="#">Registrate</a></div> -->
-            </div>
+            <p>En FerroTool contamos con una amplio stock y gama de herramientas e insumos que nos permiten afrontar
+                en tiempo y forma las necesidades de nuestros clientes y acompañarte durante la etapa de gestión del
+                proyecto.</p>
         </div>
-    </section>
+
+
+        <div class="boton">
+            <div><a href="/card.html"> Más información</a></div>
+    </section> 
     <footer>
         <div>
             <p>Seguinos en nuestras redes sociales</p>

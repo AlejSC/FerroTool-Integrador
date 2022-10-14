@@ -1,0 +1,98 @@
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    header ul li a{
+        font-size: 16px;
+    }
+    
+}
+
+    
+
+    
+
+@media (max-width: 850px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+       
+        
+    }
+
+
+    
+    header ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    header ul li a{
+        font-size: 20px;
+    }
+     
+    #check:checked ~ ul{
+        left:0;
+    }
+    
+    .active {
+        display: none;
+    }
+}
+
+/* Card */
+
+.cards {
+    width: 160px;
+    height: 210px;
+    margin: 25px;
+    gap: 5px;
+    overflow:hidden;
+}
+
+.cardscontainer .cards img{
+    width: 90px;
+    height: 50px;
+}
+
+    
+    .cardscontainer .cards h2{
+        font-weight:300;
+    }
+    
+    .cardscontainer .cards h4{
+        font-weight: 200;
+    }
+    
+    .cardscontainer .cards p{
+        padding: 0 1rem;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    
+
+    /* Institucional */
+
+    section {
+        width: 800;
+        flex-wrap: wrap;
+        
+    }
+
+    .nosotros {
+        width: 500px;
+        margin-left: 30px;
+    }
+
+    .imagen img {
+        margin-right: 30pc;
+    }

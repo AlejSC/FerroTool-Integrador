@@ -19,75 +19,67 @@ body {
     background-size: 1900px 950px;
    
 }
-
 header {
-    display: flex;
-    width: 1900px;
-    background-color: rgba(255, 255, 255, .15);  
-    backdrop-filter: blur(5px);
-   
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    font-family: 'Lato', sans-serif;
-    width: 1900px;
-    
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  font-family: 'Lato', sans-serif;
 
 }
 
-.navbar__logo img {
-    width: 200px;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    margin-top: 25px;
-    margin-left: 250px;
+header img {
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.lista li {
-    display: flex;
-    gap: 50px;
-    margin: 50px;
-    justify-content: flex-end;
-    justify-items:center;
-    margin-left: 200px;
-    margin-right: 200px;
-    color: #f8f8f6;
-    text-decoration: none;
-    font-weight: 900;
 
-    font-size: 20px;
+.logo{
+  height: 40px;
+ 
 }
-.lista a {
-    text-decoration: none;
-    color: #f8f8f6;
+header ul{
+  float: right;
+  margin-right: 30px;
+}
+header ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+header ul li a{
+  color: #fff;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+li a.active, li a:hover{
+  background: #000090;
+  transition: .5s;
+  border-radius: 5px;
+}
+.checkbtn{
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
 }
 
-.lista__items {
-    font-family: 'Lato', sans-serif;
-    color: #f8f8f6;
-    font-size: 15px;
-    padding: 10px;
-    text-decoration: none;
-    -webkit-border-radius: 28px;
-    -moz-border-radius: 28px;
-    border-radius: 28px;
-    -webkit-box-shadow: 0px 1px 3px #666666;
-    -moz-box-shadow: 0px 1px 3px #666666;
-    box-shadow: 0px 1px 3px #666666;
-    text-shadow: 1px 1px 3px #1a171a;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(#bdbbbc), to(#6b6a6a));
-    background: -moz-linear-gradient(top, #bdbbbc, #6b6a6a);
-   
+nav {
+  background: url(fondo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: calc(100vh - 80px);
+  display: none;
 }
-
-.lista__items:hover {
-    background: #3a4080;
-  }
-
 
   .container {
     width: 100%;

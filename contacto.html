@@ -9,30 +9,28 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/jpg" href="/Img/favicon.ico"/>
     <link rel="stylesheet" href="/contacto.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <title>FerroTool :: Herramientas e insumos para el profesional</title>
 </head>
 <body>
     
   <header>
-    <div class="navbar">
-        <div class="navbar__logo"> <a href="/index.html"><img src="/Img/imageonline-co-transparentimage.png"
-                    alt="FerroTool"></a>
-
-
-        </div>
-        <div class="lista">
-            <div>
-                <li>
-                    <ul class="lista__items"><a href="/index.html">INICIO</a> </ul>
-                    <ul class="lista__items"><a href="/institucional.html">INSTITUCIONAL</a></ul>
-                    <ul class="lista__items"><a href="/card.html">HERRAMIENTAS </a></ul>
-                    <ul class="lista__items"><a href="/contacto.html">CONTACTO</a></ul>
-                    <ul class="lista__items"><a href="/login.html"><i class="fa-solid fa-user"></i></a></ul>
-                </li>
-            </div>
-        </div>
-    </div>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <a href="/index.html"><img src="/Img/imageonline-co-transparentimage.png"
+        alt="FerroTool"></a>
+    </a>
+    <ul>
+        <li><a  href="/index.html">Inicio</a></li>
+        <li><a href="/contacto.html">Nosotros</a></li>
+        <li><a href="/card.html">herramientas</a></li>
+        <li><a class="active" href="/contacto.html">Contacto</a></li>
+        <li><a href="/login.html"><i class="fa-solid fa-user"></i></a></li>
+    </ul>
 </header>
+<nav></nav>
         <div class="container">     
            <div class="formulario">
             <h1>Contactanos</h1>
